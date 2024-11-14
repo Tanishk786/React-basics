@@ -1,0 +1,16 @@
+Hello there,
+     I am Tanishk Sarathe welcomes you to the journey of react. Here i will share  some important summaries and key points with you which will help you and will improve your learning by 10x.
+
+1. To update anything on UI we often used get elements and by using dom we need to perform that task but because we are in react so here we have hooks that directly took control over the UI updation. 
+    there are many kinds of hooks we have : 
+    1 : useState = to update anyvalue by a perticular action by storing it into a variable that you need to define in the syntax of hook and will update all the value wherever the mentioned variable in placed.
+
+    2.In useState, there are two variables defined and that is  for example leran and setlearn. Here set learn is the function which takes or collects the input throughout the code and other variable that is learn, that implements the collected information by setlearn whereever we want on the page.
+
+    3. here comes the new hook that is useCallback : it works as it stores the previous values in cache and re use it when page reloads. it comes with dependencies that on every dependency the function or usecallback re runs.
+
+    4. useEffect calls whenever page reloads. but it has many more functionality 
+
+    5. useCallback calls itself whenever we need optimization. it stores some of the values in the cache.
+
+    6. useRef is used whereever we need to get or store the reference of any entity, it can not be used directly it has to stored in a variable.
